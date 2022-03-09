@@ -50,7 +50,7 @@ public class CustomListTest {
         list.addCity(new City("Red Deer", "AB"));
         assertEquals(listSize + 2, list.countCities());
         list.deleteCity(newCityNS);
-        assertEquals(listSize - 1, list.countCities());
+        assertEquals(listSize + 1, list.countCities());
 
     }
 
